@@ -1,0 +1,19 @@
+{
+  "name": "team-management-system",
+  "version": "1.0.0",
+  "description": "a management system for upper level employees",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjaeschke/Employee_Management_System.git"
+  },
+  "author": "Michael Jaeschke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjaeschke/Employee_Management_System/issues"
+  },
+  "homepage": "https://github.com/mjaeschke/Employee_Management_System#readme"
+}
