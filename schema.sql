@@ -27,3 +27,30 @@ CREATE TABLE  employees(
   FOREIGN KEY (roleID) REFERENCES roles(roleID)
   
 );
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("lead softwareDev",70000,1);
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("head softwareDev",90000,1);
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("softwareDev",60000,1);
+
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("lead",50000,2);
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("head",80000,2);
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("junior",40000,2);
+
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("lead salesman",45000,3);
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("head",50000,3);
+INSERT INTO roles (title, salary, departmentID)
+VALUES ("sales rep",40000,3);
+
+INSERT INTO departments (departmentName)
+VALUES ("programmers");
+INSERT INTO departments (departmentName)
+VALUES ("marketing");
+INSERT INTO departments (departmentName)
+VALUES ("sales");
