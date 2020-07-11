@@ -12,7 +12,7 @@ CREATE TABLE  department(
 CREATE TABLE  roles(
   roleID int NOT NULL AUTO_INCREMENT,
   title VARCHAR(30),
-  salary DECIMAL(2),
+  salary DECIMAL(10,2),
   PRIMARY KEY (roleID)
   FOREIGN KEY (departmentID) REFERENCES department(departmentID)
 );
