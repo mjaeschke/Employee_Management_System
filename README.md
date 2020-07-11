@@ -5,3 +5,4 @@ the command line my sql is the data base and is seeded with some roles and depar
 ![image of schema](assets/schema.png)
 ![image of hw](assets/employee-tracker.gif)
 https://github.com/mjaeschke/Employee_Management_System
+https://drive.google.com/file/d/1iZwpH8WCt_BB4Z7fgu0W11fPu_ynp4B5/view
