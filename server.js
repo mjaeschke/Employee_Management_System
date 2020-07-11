@@ -14,7 +14,6 @@ function start(){
                 "View All Employees",
                 "View All Employees by Department",
                 "Add Employee",
-                "Update Employee Role",
                 "Add Department",
                 "Add Role",
                 "Exit"
@@ -34,9 +33,6 @@ function start(){
                 addEmployee();
                 break;
         
-            case "Update Employee Role":
-                updateEmRole();
-                break;
             case "Add Department":
                 addDepartment();
                 break;
@@ -55,7 +51,7 @@ function start(){
 
 
 function viewALL(){
-    connection.query("SELECT * FROM departments,employees,roles",function(err,result,fields){
+    connection.query("SELECT * FROM employees",function(err,result,fields){
         console.table(result);
         start();
     });
